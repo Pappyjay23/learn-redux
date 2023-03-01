@@ -52,7 +52,7 @@ const Login = () => {
 					<button
 						style={{ cursor: "pointer" }}
 						onClick={() => dispatch(logout())}>
-						Logout
+						Reset Profile
 					</button>
 				</div>
 			</div>
