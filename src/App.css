@@ -19,3 +19,29 @@
   padding: 2rem;
   text-align: center;
 }
+
+.loginForm{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+.loginForm input{
+  padding: .8rem .5rem;
+}
+
+.loginForm button{
+  padding: .5rem 2rem;
+  width: fit-content;
+  background-color: #171717;
+  outline: none;
+  border: none;
+}
+
+.btnGroup{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
