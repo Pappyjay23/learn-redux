@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { login, logout } from "../features/user";
 
 const Login = () => {
+	const colorCode = useSelector((state) => state.color.value)
 	const dispatch = useDispatch(); // Used to dispatch actions to set state
 
 	const [userDetails, setUserDetails] = useState({
@@ -13,7 +14,7 @@ const Login = () => {
 
 	return (
 		<div>
-			<h1>Login Page</h1>
+			<h1 style={{color: colorCode}}>Login Page</h1>
 			<div className='loginForm'>
 				<input
 					type='text'

@@ -25,10 +25,11 @@
 	flex-direction: column;
 	width: 100%;
 	margin: 0 auto;
-	gap: 1rem;
+	gap: .7rem;
 }
 
-.loginForm input {
+.loginForm input,
+.colorForm input {
 	padding: 0.8rem 0.5rem;
 }
 
@@ -44,10 +45,23 @@
 	display: flex;
 	justify-content: center;
 	gap: 2rem;
+	margin-top: 1rem;
+}
+
+.colorGroup{
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1rem;
+}
+
+.colorGroup input{
+	cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
-	.loginForm {
+	.loginForm{
 		width: 50%;
 	}
 }

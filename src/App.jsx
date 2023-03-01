@@ -1,15 +1,17 @@
-import React from 'react'
-import './App.css'
-import Login from './components/Login'
-import Profile from './components/Profile'
+import React from "react";
+import "./App.css";
+import ChangeColor from "./components/ChangeColor";
+import Login from "./components/Login";
+import Profile from "./components/Profile";
 
 const App = () => {
-  return (
-    <div>
-      <Profile />
-      <Login />
-    </div>
-  )
-}
+	return (
+		<div>
+			<Profile />
+			<Login />
+			<ChangeColor />
+		</div>
+	);
+};
 
-export default App
+export default App;
