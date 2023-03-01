@@ -19,7 +19,7 @@ const ChangeColor = () => {
 						dispatch(changeColor(e.target.value));
 					}}
 				/>
-				<span>{colorCode}</span>
+				<span style={{color: colorCode, textTransform: 'uppercase'}}>{colorCode}</span>
 			</div>
 		</div>
 	);
